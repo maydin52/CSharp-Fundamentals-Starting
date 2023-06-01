@@ -12,3 +12,23 @@ Operatorler...
   Mantýksal Op. !(NOT) , &&(VE) , ||(VEYA)
   Karþýlaþtýrma Op. ==, <= ,>=, !=, >, <
   *** Karþýlaþtýrma op. geriye bool tipinde deger dondurur...
+  
+  //Operatorler...
+//
+
+int i = 10;
+//i++ => i=i+1
+//Once islem, sonra artır...
+
+//++i =>Once artır, sonra islem...
+Console.WriteLine(i++);
+Console.ReadLine();
+Console.WriteLine(i);
+Console.ReadLine();
+Console.WriteLine(++i);
+
+Console.WriteLine(3==3);
+Console.WriteLine(3!=3);
+Console.WriteLine(3==4);
+Console.WriteLine(3<3);
+Console.WriteLine(3>3);
