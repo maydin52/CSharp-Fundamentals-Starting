@@ -1,0 +1,23 @@
+//break:donguden çıkmak için kullanılır...
+//gordugu anda donguyu bitirir...
+
+do {
+    //
+    //
+    break;
+    Console.WriteLine("islem");
+
+}while(true);
+
+//break, continue kullanımı...
+
+for (int i = 0; i < 10; i++)
+{
+    if (i == 5 || i==6) continue;
+    Console.WriteLine(i);
+}
+
+//continue:sadece o adımı iptal eder...
+
+//goto: Moduler programlamaya uygun bir kullanım değildir...
+//Assembly
