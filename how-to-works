@@ -1,0 +1,62 @@
+Bilgisayar;elektronikl alet...
+Hardware:CPU,GPU,RAM,HDD,SSD
+Software:
+   Operating Systems
+   CAD
+   Utility
+   Programming Languages
+   Firmware
+
+Program
+ Source Code =>Compiler(Compile) =>Executable code
+
+ C# .NET CORE
+
+ OAK:Mese Agaci => JAVA
+ JAVA:Platform Bagimsiz bir programlama dilidir...
+ .NET Framework 2001-2002
+ ***Platform Baðýmsýz(MS OS ler arasýnda)
+ 2016 => .NET CORE
+ *** 100% platform baðýmsýzlýðý
+
+ JAVA
+ Source Code => Compiler => Bytes Code =>Compiler=> executable Code
+
+  Source Code => Compiler => IL(MSIL) =>Compiler=> executable Code
+
+  Source Code
+    *** Gramer 
+    *** Kutuphane
+    *** ALGORITMA
+
+
+Deðiþkenler
+*** C# Programlama Dilinde ön tanýmlý 15 tane tip vardir...
+
+Value Types
+
+ byte
+sbyte
+short 
+ushort
+int
+uint
+long
+ulong
+---------
+float
+double
+decimal
+---------
+char
+bool
+
+*******************************
+Reference Type
+string
+object
+
+RAM
+  Stack (Deger Tipli olanlar)
+  Heap  (Referans Tipli olanlar) 
+  Static
