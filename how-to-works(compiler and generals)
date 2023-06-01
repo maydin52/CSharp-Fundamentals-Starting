@@ -29,34 +29,7 @@ Program
     *** Kutuphane
     *** ALGORITMA
 
+//Compiler:Açıklama satırlarını derlemez...
 
-Deðiþkenler
-*** C# Programlama Dilinde ön tanýmlý 15 tane tip vardir...
-
-Value Types
-
- byte
-sbyte
-short 
-ushort
-int
-uint
-long
-ulong
----------
-float
-double
-decimal
----------
-char
-bool
-
-*******************************
-Reference Type
-string
-object
-
-RAM
-  Stack (Deger Tipli olanlar)
-  Heap  (Referans Tipli olanlar) 
-  Static
+//C# Case-Sensitive
+//Buyuk harf kucuk harf farkeder...
