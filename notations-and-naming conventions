@@ -1,0 +1,41 @@
+Ýsimlendirme Kurallarý ve Notasyonlar...
+*** Aralarda boþýluk olamaz...
+*** Numerik deger ile baþlayamaz...
+.
+.
+.
+*************
+  Ýsimlendirme yaparken verilen isim; yapýlan iþ ile ilgili olmalýdýr...
+*************
+              
+
+1-Macar Notasyonu
+  isim verilirken ilk 3 harf yapýlacak iþin tipiyle ilgili olmalý gerisi yapilacak iþ ile ilgili olmalý...
+  dblMaas, txtAd, rdoCinsiyet, btnKaydet
+  ***Deðiþken tanýmlamalarýnda ve Windows kontrollerine isim verilirken çok kullanýlýr...
+
+2-Pascal Notasyonu
+  *** Metod, Sýnýf yada Genel isimlþendirmelerde çok kullanýlýr...
+  Kelimelerin ilk harfi buyuk olarak yazýlýr..
+
+  WriteLine(), ReadLine, MaasHesapla()
+
+3-Camel Notasyonu
+  *** daha çok deðiþken tanýmlarken kullanýrýz...
+  *** Javascript de ise hemen hemen her isimlendirme de kullanýlýr...
+
+  Ýlk kelimenin ilk harfi kucuk, diger kelimelerin ilk harfi buyuk olacakj þekilde yazýlýr...
+
+  toplamTutar, enBuyukSayi, enPahaliFiyat
+
+4-Kebab Notasyonu
+  Özellikle kullaným alaný MVC Core TAG helper kullanýmýnda
+
+  asp-route-id, asp-controller
+
+5-snake notasyonu
+  Daha çok Phyton programlama dilinde kullanýlýr...
+
+  kelimelerin tamamý kucuk harf, bosluk yerine alt cizgi kullanýlýr....
+
+  en_kucuk_sayi, 
