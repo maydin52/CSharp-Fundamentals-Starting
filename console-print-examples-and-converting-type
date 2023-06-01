@@ -1,0 +1,22 @@
+//Soru: Kullanıcıdan ad, soyad, yas bilgilerini alıp ekranda gosteren kodu yazınız?
+
+string ad, soyad;
+int yas;
+
+Console.Write("Adınızı Giriniz:");
+ad = Console.ReadLine();
+Console.Write("Soyadınızı Giriniz:");
+soyad = Console.ReadLine();
+Console.Write("Yasinizi Giriniz:");
+//yas = int.Parse(Console.ReadLine());
+yas = Convert.ToInt32(Console.ReadLine());
+
+//KURAL:Atama operatorunun her iki tarafı(operand) tip olarak aynı olmalıdir...
+//Tip Donusumu...
+
+//String Concanation
+Console.WriteLine(ad + " " + soyad   + " " + yas);
+//Content Place Holder
+Console.WriteLine("{0} {1} {2}",ad, soyad,yas);
+//String Interpolation
+Console.WriteLine($"{ad} {soyad} {yas}");
