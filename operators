@@ -13,8 +13,34 @@ Operatorler...
   Karþýlaþtýrma Op. ==, <= ,>=, !=, >, <
   *** Karþýlaþtýrma op. geriye bool tipinde deger dondurur...
   
-  //Operatorler...
-//
+  //XOR Bitsel op...
+Console.WriteLine(7^2); //5
+Console.WriteLine(7^3); //4
+
+//0 0 0
+//0 1 1
+//1 0 1
+//1 1 0
+
+//111 4+2+1 =7
+//010 2 
+//101 => 4+1 =5
+
+//111 4+2+1 =7
+//011 3
+//100 =>4
+  
+  
+  //Soru 1:Kullanıcı tarafından girilen bir tam sayının tek veya cift olduğunu bulan kodu yazınız?
+
+//int sayi;
+Console.WriteLine("Bir sayı giriniz?");
+int sayi = Convert.ToInt32(Console.ReadLine());
+
+if (sayi % 2 == 1)
+    Console.WriteLine("Sayı Tektir...");
+else
+    Console.WriteLine("Sayi Cifttir");
 
 int i = 10;
 //i++ => i=i+1
