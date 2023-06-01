@@ -1,0 +1,14 @@
+Operatorler...
+  Programlama dillerinde, bazý sembol veya keywordler atanmýþ olan iþlemlerdir...
+  
+  Operand: bir operatorun saðýnda yada solunda olan ifadeler...
+  a==b  4==4
+  //1 operandlý op. i++
+  //2 operandlý op. 3==2 
+  //3 operandlý op. ? :
+
+  Aritmetik op. + , - , / , * , i++ , i--, --i, ++i
+  Atama Op. =, += , -=, *=, /=
+  Mantýksal Op. !(NOT) , &&(VE) , ||(VEYA)
+  Karþýlaþtýrma Op. ==, <= ,>=, !=, >, <
+  *** Karþýlaþtýrma op. geriye bool tipinde deger dondurur...
