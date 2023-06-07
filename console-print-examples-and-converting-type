@@ -20,3 +20,6 @@ Console.WriteLine(ad + " " + soyad   + " " + yas);
 Console.WriteLine("{0} {1} {2}",ad, soyad,yas);
 //String Interpolation
 Console.WriteLine($"{ad} {soyad} {yas}");
+
+HOCAYA SOR-------------- c-sharp-examples/for-bir-yüz-arasinda-rastgele-on-sayi-ureten
+Console.Write("{0,2}. sayı : {1}\n" , i , rastgeleSayi); 
