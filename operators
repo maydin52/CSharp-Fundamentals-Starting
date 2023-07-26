@@ -68,3 +68,10 @@ Console.WriteLine(3!=3);
 Console.WriteLine(3==4);
 Console.WriteLine(3<3);
 Console.WriteLine(3>3);
+
+-------------------------------------------------------------------
+Nullable operatörü
+
+int? sID = null;
+
+//int kID = null;
