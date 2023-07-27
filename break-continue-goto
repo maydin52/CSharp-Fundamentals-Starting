@@ -21,3 +21,21 @@ for (int i = 0; i < 10; i++)
 
 //goto: Moduler programlamaya uygun bir kullanım değildir...
 //Assembly
+
+-------------------------------------------------------------------
+
+// 1 ile 100 arasındaki sayıları ekrana yazdıran program
+
+//int sayi = 0;
+//basla:
+
+
+
+//if (sayi < 100)
+//{
+//  //sayi = sayi + 1;
+//  sayi++; // yukarıdakinin aynsı
+//  Console.WriteLine($"sayı : {sayi}");
+
+//  goto basla;
+//}
