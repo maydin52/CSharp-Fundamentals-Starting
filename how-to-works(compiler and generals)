@@ -52,4 +52,17 @@ Program
 
 -------------------------------------------
 
+Garbage Collector çalışma mantığı;
 
+garbage collector den biz sadece talepte bulunuyoruz, o sistemin geneline bakıp ne zaman gerekiyorsa ne zaman müsaitse o zaman devreye giriyor ve ramde heap ve stack te ilişkisi ve referansı 
+    olmayan bütün nesneleri siler. Ya da hangisini yok etmek istiyorsanız yani  dispose etmek istediğiniz neyse onu otomatik olarak siler. Kullanıcı çalışmasına müdahale edemiyor. 
+    O da sistemnin geneline bakıyor, o oanda sistemde daha önemli bir iş varsa öteliyor. 
+    programı kapattığın zaman zaten ramdekiler gidiyor. 
+    CLR karar veriyor. Yani .net framework ikiye ayrılır; 
+        Biri CLR (Common Language Runtime) yani bütün mamory nin yönetimi. Garbage Collector a emir veren mekanizma
+        diğeri BCL (Base Class Library)
+    https://aku.edu.tr/AKU/DosyaYonetimi/HALKBILIM/dotNetinABCsi_Agustos2008.pdf
+    19. sayfa
+
+
+diğer yapılarda doğrudan çalışıır
